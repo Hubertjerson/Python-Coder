@@ -1,4 +1,4 @@
-def par_o_impar(valor):
+def añoBisiesto(valor):
     for digito in valor:
         if digito in '0123456789':
             continue
@@ -15,4 +15,4 @@ def par_o_impar(valor):
 
 error = True
 while error:
-    error = par_o_impar(input('ingresame un valor numerico: '))
+    error = añoBisiesto(input('ingresame un valor numerico: '))
