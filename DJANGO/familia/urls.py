@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import  family
+from .views import family
 
 urlpatterns = [
-    path('', family ),
+    path('', family),
 ]

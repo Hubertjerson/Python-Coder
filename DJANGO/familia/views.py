@@ -12,13 +12,13 @@ def save_family(request):
 
     return HttpResponse(render1)
 
+
 def family(request):
-    
+
     template = loader.get_template('familia.html')
-    
+
     family_member = Familia.objects.all()
-    
-    render = template.render({'lista_familia':family_member})
-    
+
+    render = template.render({'lista_familia': family_member})
+
     return HttpResponse(render)
-    
