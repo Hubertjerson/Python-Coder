@@ -12,7 +12,7 @@
 ---
 
 <h2>Sugerencia</h2>
-<h3> Forma de Guardar Poner Datos de familiares desde la Consola </h3>
+<h3> Forma de Guardar datos de familiares (Poner Datos de familiares desde la Consola) </h3>
 
     "py manage.py shell"
         // Importamos el modelo de nuestra base de datos
